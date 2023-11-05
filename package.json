@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/goneplaid/take-home-moz#readme",
   "devDependencies": {
+    "@types/firefox-webext-browser": "^111.0.3",
     "typescript": "^5.2.2"
   }
 }

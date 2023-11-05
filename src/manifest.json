@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Amazon Results Scraper",
+  "version": "1.0",
+  "description": "Scrapes data from Amazon search results",
+  "permissions": ["activeTab", "storage", "<all_urls>"],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icon.png"
+    }
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "48": "icon.png"
+  }
+}
