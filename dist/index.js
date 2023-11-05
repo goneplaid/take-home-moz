@@ -1,3 +1,3 @@
 "use strict";
-
-console.log("We landed on the moon!!!");
+// src/index.ts
+console.log("Hello, TypeScript!");

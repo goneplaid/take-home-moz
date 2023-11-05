@@ -4,7 +4,7 @@
   "description": "Take home assignment for an interview with Mozilla",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && cp src/icon.png dist/icon.png && cp src/manifest.json dist/manifest.json && cp src/popup.html dist/popup.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
